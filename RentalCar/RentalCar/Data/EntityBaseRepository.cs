@@ -12,7 +12,7 @@ namespace RentalCar.Data
     {
 
         private readonly AppDbContext _context;
-        public EntityBaseRepository(AppDbContext context)w
+        public EntityBaseRepository(AppDbContext context)
         {
             _context = context;
         }
